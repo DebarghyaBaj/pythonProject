@@ -23,4 +23,8 @@ print(txt.encode(encoding="ascii", errors="xmlcharrefreplace"))
 print(a.endswith('n'))
 # true if it ends with 'n'.
 
-
+txt1 = "H\tE\tE\tL\tL\tO"
+print(txt1)
+# print with 1 tab as mentioned
+print(txt1.expandtabs(2))
+# print with 4 tabs
